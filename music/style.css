@@ -1,0 +1,471 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+h1{
+    color:black;
+    box-shadow: #fff;
+    text-align: center;
+    box-shadow: #fff;
+   
+}  
+body {
+        
+        justify-content: center;
+        align-items: right;
+        min-height: 100px;
+        background: #000;
+        background-image: url(backimg.jpg);
+        padding-top: 100px;
+        padding-left: 50px;
+        padding-bottom: 500px;
+       justify-content: space-between;
+       display: flex;
+       flex-direction: column;
+       
+    
+
+    }
+  
+/*Naan-Gaali*/
+
+.player1{
+    justify-content: center;
+    align-items: center;
+    min-height: 0px;
+    width: 350px;
+    height:-100px;
+    background: black;
+    border-radius: 30px;
+    box-shadow:0px 50px 80px  #fff;
+    padding-left:90px;
+    padding-top: 50px;
+    float:left;/*new change made*/
+   
+}
+.player1.imgbox1{
+
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding-top: 100px;
+    padding-left: 90px;
+    background-color: #fff;
+    
+    
+     
+    
+}
+.player1  .imgbox1 .img{
+   
+        position: relative;
+        top: 350;
+        left: 350;
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+        border-top-left-radius:20px;
+        border-top-right-radius:20px;
+       display: grid;
+        
+    
+
+}
+.player1 audio{
+    width: 100%;
+    padding-right: 120px;
+  
+    outline: none;
+ 
+}
+
+.player3{
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    width: 350px;
+    height:350px;
+    background: black;
+    border-radius: 30px;
+    box-shadow:0px 50px 80px  #fff;
+    padding-left:40px;
+    padding-top: 40px;
+    float:left;/*new change made*/
+   
+
+}
+ 
+
+.player3.imgbox3{
+    position:relative ;
+    width: 100%;
+    height: 550px;
+    padding-top: 500px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #fff;
+    
+}
+.player3.imgbox3.img{
+    position: relative;
+    top: 350;
+    left: 350;
+    right: 350;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+  
+    
+}
+.player3.audio{
+    width: 50%;
+    padding-right: 50px;
+    padding-left: -50px;
+  
+    outline: none;
+  
+}
+
+.player4{
+    justify-content: center;
+    align-items: center;
+    min-height: 0px;
+    width: 350px;
+    height:-100px;
+    background: black;
+    border-radius: 30px;
+    box-shadow:0px 50px 80px  #fff;
+    padding-left:90px;
+    padding-top: 50px;
+    float:left;/*new change made*/
+   
+}
+.player4.imgbox4{
+
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding-top: 100px;
+    padding-left: 90px;
+    background-color: #fff;
+    
+    
+     
+    
+}
+.player4  .imgbox4 .img{
+   
+        position: relative;
+        top: 350;
+        left: 350;
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+        border-top-left-radius:20px;
+        border-top-right-radius:20px;
+       display: grid;
+        
+    
+
+}
+.player4 audio{
+    width: 100%;
+    padding-right: 120px;
+  
+    outline: none;
+ 
+}
+
+.player5{
+    justify-content: center;
+    align-items: center;
+    min-height: 0px;
+    width: 350px;
+    height:-100px;
+    background: black;
+    border-radius: 30px;
+    box-shadow:0px 50px 80px  #fff;
+    padding-left:40px;/* new change made*/
+    padding-top: 40px;/* new change made*/
+    float:left;/*new change made*/
+   
+}
+.player5.imgbox5{
+
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding-top: 100px;
+    padding-left: 90px;
+    background-color: #fff;
+    
+    
+     
+    
+}
+.player5  .imgbox5 .img{
+   
+        position: relative;
+        top: 350;
+        left: 250;
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+        border-top-left-radius:50px;
+        border-top-right-radius:20px;
+       display: grid;
+        
+    
+
+}
+.player5 audio{
+    width: 100%;
+    padding-right: 120px;
+  
+    outline: none;
+ 
+}
+
+.player6{
+    justify-content: center;
+    align-items: center;
+    min-height: 0px;
+    width: 350px;
+    height:-100px;
+    background: black;
+    border-radius: 30px;
+    box-shadow:0px 50px 80px  #fff;
+    padding-left:90px;
+    padding-top: 50px;
+    float:right;/*new change made*/
+   }
+.player6.imgbox6{
+
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding-top: 100px;
+    padding-left: 90px;
+    background-color: #fff;
+    
+    
+     
+    
+}
+.player6  .imgbox6 .img{
+   
+        position: relative;
+        top: 350;
+        left: 350;
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+        border-top-left-radius:20px;
+        border-top-right-radius:20px;
+       
+        
+    
+
+}
+.player6 audio{
+    width: 100%;
+    padding-right: 120px;
+  
+    outline: none;
+ 
+}
+.player7{
+    justify-content: center;
+    align-items: center;
+    min-height: 0px;
+    width: 350px;
+    height:-100px;
+    background: black;
+    border-radius: 30px;
+    box-shadow:0px 50px 80px  #fff;
+    padding-left:40px;
+    padding-top: 40px;
+    float:left;/*new change made*/
+   }
+.player7.imgbox7{
+
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding-top: 100px;
+    padding-left: 90px;
+    background-color: #fff;
+    
+    
+     
+    
+}
+.player7 .imgbox7 .img{
+   
+        position: relative;
+        top: 350;
+        left: 350;
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+        border-top-left-radius:20px;
+        border-top-right-radius:20px;
+       display: grid;
+        
+    
+
+}
+.player7 audio{
+    width: 100%;
+    padding-right: 120px;
+  
+    outline: none;
+ 
+}
+.player8{
+    justify-content: center;
+    align-items: center;
+    min-height: 0px;
+    width: 350px;
+    height:-100px;
+    background: black;
+    border-radius: 30px;
+    box-shadow:0px 50px 80px  #fff;
+    padding-left:40px;
+    padding-top: 40px;
+    float:right;/*new change made*/
+   }
+.player8.imgbox8{
+
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding-top: 100px;
+    padding-left: 90px;
+    background-color: #fff;
+    
+    
+     
+    
+}
+.player8 .imgbox8 .img{
+   
+        position: relative;
+        top: 350;
+        left: 350;
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+        border-top-left-radius:20px;
+        border-top-right-radius:20px;
+       display: grid;
+        
+    
+
+}
+.player8 audio{
+    width: 100%;
+    padding-right: 120px;
+  
+    outline: none;
+ 
+}
+.player9{
+    justify-content: center;
+    align-items: center;
+    min-height: 0px;
+    width: 350px;
+    height:-100px;
+    background: black;
+    border-radius: 30px;
+    box-shadow:0px 50px 80px  #fff;
+    padding-left:40px;/*new made change*/
+    padding-top: 40px;/*new made change*/
+    float:left;/*new change made*/
+   }
+.player9.imgbox9{
+
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding-top: 100px;
+    padding-left: 90px;
+    background-color: #fff;
+    
+    
+     
+    
+}
+.player9  .imgbox9 .img{
+   
+        position: relative;
+        top: 350;
+        left: 350;
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+        border-top-left-radius:20px;
+        border-top-right-radius:20px;
+       display: grid;
+        
+    
+
+}
+.player9 audio{
+    width: 100%;
+    padding-right: 120px;
+  
+    outline: none;
+ 
+}
+.player10{
+    justify-content: center;
+    align-items: center;
+    min-height: 0px;
+    width: 350px;
+    height:-100px;
+    background: black;
+    border-radius: 30px;
+    box-shadow:0px 50px 80px  #fff;
+    padding-left:40px;
+    padding-top: 40px;
+    float:right;/*new change made*/
+   }
+.player10.imgbox10{
+
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding-top: 100px;
+    padding-left: 90px;
+    background-color: #fff;
+    
+    
+     
+    
+}
+.player10  .imgbox10 .img{
+   
+        position: relative;
+        top: 350;
+        left: 350;
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+        border-top-left-radius:20px;
+        border-top-right-radius:20px;
+       display: grid;
+        
+    
+
+}
+.player10 audio{
+    width: 100%;
+    padding-right: 120px;
+  
+    outline: none;
+ 
+}
